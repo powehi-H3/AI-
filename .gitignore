@@ -1,0 +1,21 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_credentials*
+*token*
+*secret*
+
+# Local/editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Local archives and generated artifacts (add intentionally when safe)
+*.log
+*.cache
