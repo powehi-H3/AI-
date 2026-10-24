@@ -1,11 +1,16 @@
-# Conversation Archive
+---
+archive_id: YYYY-MM-DD-topic
+record_type: conversation
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+project: project-slug
+source: "source conversation URL or export path"
+sensitivity: redacted
+verification: partially-verified
+tags: []
+---
 
-- **Archive ID:** YYYY-MM-DD-topic
-- **Date:** YYYY-MM-DD
-- **AI / platform:** 
-- **Project:** 
-- **Source conversation:** 
-- **Sensitivity:** Public-safe / Redacted / Private (do not commit to public repo)
+# Conversation Archive
 
 ## 1. Purpose
 What was the user trying to achieve?
