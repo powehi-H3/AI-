@@ -1,3 +1,16 @@
+---
+archive_id: YYYY-MM-DD-project-handover
+record_type: handover
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+project: project-slug
+source: "source repository or authoritative artifact"
+sensitivity: redacted
+verification: partially-verified
+tags:
+  - handover
+---
+
 # Project Handover
 
 - **Project:** 
