@@ -5,11 +5,20 @@ Store each AI project in its own directory.
 Suggested contents:
 - `README.md`: concise project index and current status.
 - `handover.md`: latest handover summary.
-- `decisions/`: confirmed decisions and rationale.
+- `decisions/`: confirmed decisions and rationale, using the decision log template.
 - `conversations/`: sanitized conversation summaries or transcripts approved for this repository.
-- `reports/`: audits, test results, and research reports.
+- `audits/`: static audits and source reviews.
+- `tests/`: test cases, outputs, and test reports.
 - `releases/`: release notes and artifact references.
 
-Do not assume that a conversation summary replaces the original evidence. Mark inferred, disputed, and unverified details explicitly.
+## Recordkeeping rules
 
-This repository is currently public. Do not commit private raw transcripts, personal data, credentials, API keys, or other confidential material.
+- Keep raw source records separate from summaries.
+- Label each record's source, date, project, sensitivity, and verification status.
+- Distinguish user-confirmed decisions from assistant suggestions and inferred conclusions.
+- Record exact artifact paths, versions, hashes, and commits only when verified.
+- Preserve historical records; mark superseded records rather than silently rewriting them.
+- Do not assume a summary replaces original evidence.
+- This repository is public. Do not commit private raw transcripts, personal data, credentials, API keys, or confidential material.
+
+Use the templates in `../templates/` and metadata convention in `../schemas/ARCHIVE-METADATA-SCHEMA.md`.
